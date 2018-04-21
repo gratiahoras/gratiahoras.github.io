@@ -3,10 +3,10 @@
   padding: 0;
 }
 a {
-  color: #111;
+  color: #c0c0c0;
 }
 a:hover {
-  color: #c0c0c0;
+  color:#111;
 }
 nav {
  margin:auto;
@@ -16,7 +16,7 @@ nav {
  font-size: 20px;
  }
  nav ul {
- background:#c0c0c0;
+ background:hsla(0 , 0%, 30%, 0.5);
  padding: 0 20px;
  list-style: none;
  position: relative;
@@ -30,7 +30,7 @@ nav {
  }
 
  nav ul li:hover{
- background:#111;
+ background:hsla(0 , 0%, 80%, 0.5);
  }
 
  nav ul li:hover a{
@@ -46,14 +46,14 @@ nav {
 body {
   width: 97%;
   height:100%;
-  background-image: url("1s.jpeg");
+  background-image: url("11.jpg");
   background-size: cover;
 }
 section {
   position: relative;
   top: 70px;
   right: 250px;
-  background-color: hsla(0, 0%, 30%, 0.5);
+  background-color: hsla(0 , 0%, 30%, 0.5);
   width: 400px;
   height: 400px;
   margin-left: 750px;
