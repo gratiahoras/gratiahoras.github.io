@@ -51,7 +51,8 @@ nav {
 body {
   width: 97%;
   height:100%;
-background-image: url("11.jpg");
+  background-image: url("11.jpg");
+  background-size: cover;
 }
 section {
   position: relative;
@@ -93,7 +94,6 @@ section {
   color: white;
   position: relative;
   top: 160px;
-  left: 190px;;
   width: 400px;
   height: 100px;
   border-radius: 20px;
